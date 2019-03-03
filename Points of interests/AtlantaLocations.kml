@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Atlanta Locations</name>
+    <description/>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-880E4F-nodesc-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-880E4F-nodesc-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-880E4F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-880E4F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-880E4F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Grocery Stores</name>
+      <Placemark>
+        <name>Whole Foods Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3813921,33.8408965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walmart Grocery Pickup</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3128942,33.7191471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Municipal Market of Atlanta</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3798768,33.7540928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whole Foods Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3657762,33.7751254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luckie Street Grocery Store</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3964211,33.765129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14 TH ST GROCERY AND HALAL MEAT</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4002453,33.7859519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Little's Food Store]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3678997,33.7492177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Savi Provisions</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3578751,33.7623329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Intown Market & Deli]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.376891,33.749975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Trader Joe's]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3675836,33.7794269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Bear Foods</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4182372,33.7364924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green Grocery Store</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4250837,33.7638854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[L & M Market]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3774255,33.7759954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Trader Joe's]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3675836,33.7794269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Trader Joe's]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3675836,33.7794269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>L and L Grocery</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.407667,33.7635501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sweet Auburn Curb Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.377213,33.7545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Fresh Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.391634,33.812159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Fresh Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.391634,33.812159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Fresh Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.391634,33.812159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sevananda Natural Foods Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.348501,33.7670312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Triple Food Store</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3715807,33.753037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[B & K Grocery Store]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.424499,33.7206999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Savi Provisions</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3578751,33.7623329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Savi Provisions</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3843149,33.7810754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whole Foods Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3797763,33.9177907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brito Supermarket</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.337085,33.8367099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Spicy Peach</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3126881,33.8164448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carver Neighborhood Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.385472,33.7189936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>M Street Corner Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.408603,33.7773456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kroger Marketplace</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3599067,33.7422395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Progreso</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3683048,33.7143654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Publix Super Market at Piedmont</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3811575,33.7703567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stadium Grocery</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.387635,33.7320162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fast Track</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3848754,33.7878904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Winston's Grocery]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4053775,33.7320837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pyramid Grocery</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4020411,33.7324401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Urban City Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4125443,33.7817098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yaril Grocery</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4127044,33.7682945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Galli Foods</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3883383,33.7603672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ALDI</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3502211,33.7137219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Candler Park Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.333649,33.765099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pic N Pay</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4333546,33.7633044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Windsor Super Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3981538,33.7410706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West End Food Store</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4138994,33.7392452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wayfield Foods Inc</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5013254,33.6230943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grant Park Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3708416,33.7465702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vine City Supermarket</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4170773,33.7637581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kroger</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3362101,33.8042242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[J & J Grocery]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4170839,33.768606,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Brother Grocery</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4230174,33.7225762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[J & C Food Mart]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.391307,33.7525591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GNT Foods</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4177651,33.6809918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Floral Park Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.41374,33.794389,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Canasta</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.37976,33.9105119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Everyday Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3653233,33.7614908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Southern Supermarket</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.423124,33.74716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Fred's Grocery Store]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4536132,33.7502857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buy Low Super Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4750602,33.7777246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>K Stop Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.383678,33.75466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Busy Bee Grocery Store</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4761532,33.8118868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Ave Foodmart</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3711733,33.7709765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Westview Corner Grocery</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4385396,33.7438937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West End Food Mart</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4144303,33.738077,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bennett's Market & Deli]]></name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3678617,33.7390046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sprouts Farmers Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3659703,33.8065737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Publix Super Market at Ansley Mall</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3718066,33.7990623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wayfield Food Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4856162,33.7522668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Publix Super Market at Ponce</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3543848,33.7728592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pyramid Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4022052,33.7323605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grocery Store</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3798259,33.7097129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kroger</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.348303,33.7224431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kroger</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4578828,33.8716804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2205 Lavista Rd NE</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3145057,33.8157223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kroger</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4817129,33.8390314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kroger</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3833923,33.889787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kroger Fresh Fare</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3744744,33.8455304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whole Foods Market</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3813921,33.8408965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kroger</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4125375,33.8017554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kroger</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4991112,33.7242794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kroger</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4091471,33.6828334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Schools</name>
+      <Placemark>
+        <name>Benjamin E Mays High School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.505152,33.733942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The B.E.S.T. Academy 6-12</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4795149,33.78872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Booker T. Washington High School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4206879,33.7536903,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Coretta Scott King Young Women's Leadership Academy]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4793593,33.788943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Daniel McLaughlin Therrell High School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4902643,33.6989457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frederick Douglass High School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4676514,33.7612634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Henry W. Grady High School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3714213,33.7805515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maynard Holbrook Jackson High School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3612782,33.7397462,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carver High School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3870819,33.7205643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Atlanta High School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.442433,33.866401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Atlanta High School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3619385,33.6708384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harper-Archer Middle School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4988031,33.7695575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Coretta Scott King Young Women's Leadership Academy]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4793593,33.788943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crawford W Long Middle School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3952223,33.6666804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jean Childs Young Middle School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4893907,33.7327756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brown Middle School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4219843,33.7342775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luther J. Price Middle School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3874939,33.7089616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Martin Luther King, Jr. Middle School.</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3795467,33.7385063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ralph J. Bunche Middle School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5305571,33.7012832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samuel M. Inman Middle School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3627649,33.782326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sylvan Hills Middle School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4190663,33.71512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sutton Middle School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4062867,33.8325557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Barack & Michelle Obama Academy]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3826764,33.7281397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beecher Hills Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4636164,33.7358648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benteen Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3646028,33.7163181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mary M Bethune Elementary</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4816732,33.5930661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bolton Academy</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4555788,33.8173024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boyd Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4491306,33.7860802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morris Brandon Elementary: Primary Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.435156,33.833851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burgess-Peterson Academy</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.331582,33.7405855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cascade Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4654996,33.7172598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centennial Academy Charter School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3951103,33.7697765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cleveland Avenue Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3926412,33.6824296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tuskegee Airmen Global Academy Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4410934,33.7310677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hamilton E. Holmes Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4661584,33.6954927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Continental Colony Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4915956,33.678709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deerwood Elementary</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5133708,33.6711166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dobbs Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3723821,33.698284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dunbar Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4013061,33.7413861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Margaret Fain Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5005941,33.7588249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fickett Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5169209,33.6972962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finch Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4246901,33.7218593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frank Lebby Stanton Elementary School Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4425379,33.7536324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fred A. Toomer Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3276863,33.7547746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Garden Hills Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3784113,33.8317513,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gideons Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4056216,33.7308133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woodson Park Academy</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4438706,33.7719483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heritage Academy Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3781894,33.6587796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hope-Hill Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3725828,33.7572221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Humphries Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3763436,33.6719704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hutchinson Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.409839,33.6807254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jackson Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4228205,33.873375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kimberly Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4895223,33.7018458,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>M. Agnes Jones Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4219427,33.7482265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mary Lin Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3400749,33.769614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parkside Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3646714,33.7352174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Perkerson Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4137872,33.6982575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peyton Forest Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4792768,33.7490119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>E Rivers Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3900209,33.8194357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarah Smith Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3754839,33.8581814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Scott Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4715701,33.8034844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>T.H. Slater Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3926412,33.718652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Springdale Park Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3469667,33.7756321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thomasville Heights Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3544318,33.7041482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Towns Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.50385,33.7762449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Usher-Collier Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4939772,33.772625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Venetian Hills Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4504955,33.7143446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Manor Elementary School</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.489254,33.739668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whitefoord Early Learning Academy</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3428939,33.7532152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woodson Park Academy</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4438706,33.7719483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Hospital</name>
+      <Placemark>
+        <name>Atlanta Medical Center Orthopaedic Associates</name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.371509,33.7616139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Children's Healthcare of Atlanta at Scottish Rite Hospital]]></name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3541603,33.9056343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emory University Hospital Midtown</name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3864224,33.7685548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grady Memorial Hospital Emergency Room</name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3820011,33.7524015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Piedmont Hospitalist Physicians</name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3961251,33.8082856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Medical Group Of Saint Joseph's - Gynecology]]></name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3497724,33.9093668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dr. Thomas Price, MD</name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3311812,33.8047771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Distances</name>
+    </Folder>
+  </Document>
+</kml>
