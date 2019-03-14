@@ -3,6 +3,9 @@ library(dplyr)
 options(dplyr.width = Inf)
 library(magrittr)
 library(leaflet)
+library(tidycensus)
+library(mapview)
+options(tigris_use_cache = TRUE)
 #spDistance
 #geosphere
 
@@ -38,6 +41,17 @@ for (i in 1:length(CoordinateX)) {
   CoordinateX <- as.double(CoordinateX)
   CoordinateY <- as.double(CoordinateY)
 }
+
+# Map of Fulton county
+census_api_key("4aa4b75a96ccc3d770313fbfbe89b406f4161f0b")
+fulton <- get_acs(geography = "tract", 
+                  variables = "B01003_001", 
+                  state = "GA", 
+                  county = "Fulton", 
+                  geometry = TRUE)
+
+censusMap <- mapview(fulton, zcol = "estimate", legend = TRUE)
+censusMap
 #-------------------------------------------------------------------------------------------------
 # Create icons -- doesn't work yet
 groceryIcon <- makeIcon(
@@ -79,7 +93,8 @@ for (i in 1:length(CoordinateX)) {
 # Add points of interest markers to map
 #addMarkers(MartaMap, ~CoordinateX, ~CoordinateY, label = ~Name, icon = ~icons)
 addMarkers(MartaMap, ~CoordinateX, ~CoordinateY, label = ~Name) #run again if didn't show up
-MartaMap
+addMarkers(MartaMap, data = fulton)
+mapview(MartaMap)
 
 
 

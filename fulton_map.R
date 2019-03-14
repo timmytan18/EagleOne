@@ -2,6 +2,7 @@ library(tidycensus)
 library(mapview)
 options(tigris_use_cache = TRUE)
 
+census_api_key("4aa4b75a96ccc3d770313fbfbe89b406f4161f0b")
 
 fulton <- get_acs(geography = "tract", 
               variables = "B01003_001", 
