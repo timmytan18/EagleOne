@@ -5,6 +5,7 @@ library(magrittr)
 library(leaflet)
 library(tidycensus)
 library(mapview)
+library(sf)
 options(tigris_use_cache = TRUE)
 #spDistance
 #geosphere
@@ -29,7 +30,7 @@ MartaMap <- map_gtfs(gtfs_obj = marta_objs, agency_name = marta_agency_name)
 MartaMap
 
 # Read CSV file with points of interests
-setwd("/Users/timtan/documents/gt/vip/eagleone/pointsofinterests")
+setwd("/Users/timtan/documents/gatech/vip/eagleone/pointsofinterests")
 Interests <- read.csv(file = "locationsdata.csv", header = TRUE, ",")
 Type <- Interests[,1]
 Name <- Interests[,2]
@@ -50,51 +51,42 @@ fulton <- get_acs(geography = "tract",
                   county = "Fulton", 
                   geometry = TRUE)
 
-censusMap <- mapview(fulton, zcol = "estimate", legend = TRUE)
-censusMap
-#-------------------------------------------------------------------------------------------------
-# Create icons -- doesn't work yet
-groceryIcon <- makeIcon(
-  iconUrl = "https://static.thenounproject.com/png/236784-200.png",
-  iconWidth = 38, iconHeight = 95,
-  iconAnchorX = 22, iconAnchorY = 94,
-  shadowWidth = 50, shadowHeight = 64,
-  shadowAnchorX = 4, shadowAnchorY = 62
-)
-schoolIcon <- makeIcon(
-  iconUrl = "https://cdn4.iconfinder.com/data/icons/school-icon-set-1/512/1-512.png",
-  iconWidth = 38, iconHeight = 95,
-  iconAnchorX = 22, iconAnchorY = 94,
-  shadowWidth = 50, shadowHeight = 64,
-  shadowAnchorX = 4, shadowAnchorY = 62
-)
-hospitalIcon <- makeIcon(
-  iconUrl = "https://image.flaticon.com/icons/png/512/33/33777.png",
-  iconWidth = 38, iconHeight = 95,
-  iconAnchorX = 22, iconAnchorY = 94,
-  shadowWidth = 50, shadowHeight = 64,
-  shadowAnchorX = 4, shadowAnchorY = 62
-)
-# Set icons to respective points of interest -- doesn't work yet
-icons <- vector()
-for (i in 1:length(CoordinateX)) {
-  if (Type == "Grocery Store") {
-    append(icons, groceryIcon)
-  }
-  else if (Type == "School") {
-    append(icons, schoolIcon)
-  }
-  else {
-    append(icons, hospitalIcon)
-  }
-}
-#-------------------------------------------------------------------------------------------------
-
 # Add points of interest markers to map
 #addMarkers(MartaMap, ~CoordinateX, ~CoordinateY, label = ~Name, icon = ~icons)
-addMarkers(MartaMap, ~CoordinateX, ~CoordinateY, label = ~Name) #run again if didn't show up
-addMarkers(MartaMap, data = fulton)
-mapview(MartaMap)
+#addMarkers(MartaMap, ~CoordinateX, ~CoordinateY, label = ~Name) #run again if didn't show up
+#addMarkers(MartaMap, data = fulton)
+#mapview(MartaMap)
+
+
+# Create map with Fulton country and Marta stops
+
+popMap = fulton%>%leaflet()%>%addTiles()%>%addPolygons()
+
+
+popMap = addCircleMarkers(
+  popMap,
+  ~marta_objs$stops_df$stop_lon,
+  ~marta_objs$stops_df$stop_lat,
+  label = c(~marta_objs$stops_df$stop_name, ~marta_objs$stops_df$stop_name),
+  radius = 6,
+  color = "yellow",
+  stroke = FALSE,
+  fillOpacity = 0.5)
+
+popMap = addCircleMarkers(
+  popMap,
+  ~CoordinateX,
+  ~CoordinateY,
+  label = ~Name,
+  radius = 10,
+  color = "red",
+  stroke = FALSE,
+  fillOpacity = 0.5)
+
+popMap
+
+
+
 
 
 
