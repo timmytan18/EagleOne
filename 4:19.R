@@ -60,7 +60,7 @@ m = addCircleMarkers(m,
                      lng = data_filter$stop_lon, # we feed the longitude coordinates 
                      lat = data_filter$stop_lat,
                      popup = data_filter$stop_name, 
-                     radius = 7, 
+                     radius = 10, 
                      stroke = FALSE, 
                      fillOpacity = 0.5, 
                      color = "orange",
@@ -115,3 +115,9 @@ m = addDrawToolbar(m,
   editOptions=editToolbarOptions(selectedPathOptions=selectedPathOptions())
 ) 
 m
+m = addMeasure(m,
+  position = "bottomleft",
+  primaryLengthUnit = "miles",
+  primaryAreaUnit = "sqmiles",
+  activeColor = "#3D535D",
+  completedColor = "#7D4479")
