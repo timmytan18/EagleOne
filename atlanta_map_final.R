@@ -35,10 +35,10 @@ g1 <- mapview(fulton, zcol = "estimate", legend = TRUE)
 g2 <- mapview(dekalb, zcol = "estimate", legend = TRUE)
 g3 <- mapview(cobb, zcol = "estimate", legend = TRUE)
 g4 <- mapview(clayton, zcol = "estimate", legend = TRUE)
-g <- g1 + g2 + g3 + g4
+g <- g1 + g2 + g3 + g4 #using tidycensus and mapview, this maps and puts together the 4 counties
 
 
-#starts right here
+#the following code is for a separate map using leaflet - this map contains MARTA stops and points of interest
 #download Atlanta gtfs data, use the stops.txt and convert to csv file:
 filename = "/Users/timothywu/vip/eagleone/stops.csv"
 data_filter = read.csv(filename, header = TRUE)
